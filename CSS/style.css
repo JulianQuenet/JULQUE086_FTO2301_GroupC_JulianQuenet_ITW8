@@ -1,0 +1,175 @@
+*{
+  margin:0;
+  padding:0;
+  scroll-behavior: smooth;
+}
+
+form{
+    color: white;
+    padding:10px;
+    border: solid 2px lightgrey;
+    border-radius: 10%;
+}
+
+span{
+    color: red;
+}
+
+a{
+    color:#39B965 ;
+}
+
+
+
+@media only screen and (min-width: 100px) {
+    .header img{
+        margin:5px;
+        border-radius: 50%;
+        border: 2px solid white;
+    }
+    
+    article{
+        padding:10px;
+    }
+     h2,h3,h4{
+        font-size: 0.9rem;
+        margin:10px
+     }
+     
+     p{
+        font-size: 0.78rem;
+        margin: 10px;
+     }
+
+     ul li{
+        margin-left: 30px;
+        font-size: 0.78rem;
+     }
+
+     ul{
+        padding:5px;
+     }
+
+     .top{
+        position: absolute;
+        left: 90%;
+        width: 30px;
+        height: 30px;
+        position: sticky;
+        top: 500px;
+        opacity: 80%;
+     }
+
+
+    .header h1{
+        font-size: 1rem;
+    }
+
+    .header p{
+       font-size: 0.8rem;
+    }
+
+    header{
+        padding: 10px;
+        background: #0f2027 url(../Images/banner.png);
+        color: white;
+        font-family: monospace;
+    }
+    
+    .text{
+        position: absolute;
+        top:5%;
+        left:27%;
+
+    }
+    
+    .menu h2{
+        font-size: 0px;
+    }
+
+    .menu ul li{
+        display: inline-block;
+        list-style: none;
+        font-size: 0.7rem;
+        font-family: monospace;
+    }
+
+    .menu ul{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu{
+        padding: 5px;
+        background-color: #0f2027;
+        border-radius: 5px;
+    }
+
+    .menu a{
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    #skills{
+        margin-left: 40%;
+    }
+    
+    .list{
+        display: flex;
+        gap: 30px;
+    }
+
+    .listb{
+        display: flex;
+        gap:120px
+        
+    }
+    
+
+    #contactDetails{
+        margin-left: 30%;
+    }
+    
+    .Icons{
+        margin-left: 23%;
+    }
+
+    .Icons a{
+        margin-right:20px;
+    }
+    
+    footer{
+        background-color: #0f2027;
+        padding: 20px;
+        border-radius: 5%;
+    }
+    
+
+    label{
+        display: block;
+    }
+
+    input{
+        width: 220px;
+    }
+
+    input#sub{
+        width: 100%;
+    }
+
+    textarea{
+        width: 100%;
+    }
+
+    .experience{
+        margin-top:50px;
+    }
+
+}
+
+@media only screen and (min-width: 500px) {
+      header{
+         background: #0f2027;
+      }
+      
+}
