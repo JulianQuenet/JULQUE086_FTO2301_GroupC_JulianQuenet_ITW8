@@ -91,10 +91,11 @@
                   </p>
                 </div>
 
-                <a href="#"
-                  ><img class="top" src="images/arrow.png" alt="arrow"
-                /></a>
-
+                <div class="top">
+                  <a href="#" id="arrow"
+                    ><img src="images/arrow.png" alt="arrow"
+                  /></a>
+                </div>
                 <div class="experience">
                   <h2 id="experience">Experience</h2>
                   <h3>Roccellas</h3>
@@ -141,38 +142,26 @@
               <div class="leftArea">
                 <div class="skills">
                   <h2 id="skills">Skills</h2>
-                  <div class="list">
-                    <div>
-                      <p>Javascript</p>
-                      <p>HTML</p>
-                      <p>Figma</p>
-                      <p>Wire framing</p>
-                      <p>2D Animation</p>
-                      <p>Basic C# for game development</p>
-                    </div>
-                    <div>
-                      <p>Unity</p>
-                      <p>VS Code</p>
-                      <p>Digital marketing</p>
-                      <p>Adaptability</p>
-                      <p>Basic CAD</p>
-                      <p>Basic 3D modeling</p>
-                    </div>
-                  </div>
-                  <div class="listb">
-                    <div>
-                      <h2 id="languages">Languages</h2>
-                      <p>English</p>
-                      <p>Afrikaans</p>
-                      <p>French</p>
-                    </div>
-                    <div>
-                      <h2 id="courses">Courses</h2>
-                      <p>TEFL 120hr by TEFL Universal</p>
-                      <p>Basic first aid</p>
-                      <p>Programming Fundamentals</p>
-                    </div>
-                  </div>
+                  <p>Javascript</p>
+                  <p>HTML</p>
+                  <p>Figma</p>
+                  <p>Wire framing</p>
+                  <p>2D Animation</p>
+                  <p>Basic C# for game development</p>
+                  <p>Unity</p>
+                  <p>VS Code</p>
+                  <p>Digital marketing</p>
+                  <p>Adaptability</p>
+                  <p>Basic CAD</p>
+                  <p>Basic 3D modeling</p>
+                  <h2 id="languages">Languages</h2>
+                  <p>English</p>
+                  <p>Afrikaans</p>
+                  <p>French</p>
+                  <h2 id="courses">Courses</h2>
+                  <p>TEFL 120hr by TEFL Universal</p>
+                  <p>Basic first aid</p>
+                  <p>Programming Fundamentals</p>
                   <h2 id="contactDetails">Contact and links</h2>
                   <div class="Icons">
                     <a href="mailto:julianquenet8@gmail.com"
@@ -201,6 +190,40 @@
                         alt="telegram-logo"
                     /></a>
                   </div>
+                  <form class="frm"
+                    action="https://formsubmit.co/julianquenet8@gmail.com"
+                    method="POST"
+                  >
+                    <label for="contact">Reason for contact:</label>
+                    <select id="contact" name="Contact" required>
+                      <option value="callBack">Call back</option>
+                      <option value="shortListed">Short listed</option>
+                      <option value="waitingList">On waiting list</option>
+                      <option value="meeting">Schedule meeting</option></select
+                    ><span>*</span>
+                    <div>
+                      <label for="email">Email:</label>
+                      <input
+                        type="email"
+                        id="email"
+                        required
+                        placeholder="only valid email address"
+                      /><span>*</span>
+                    </div>
+
+                    <div>
+                      <label for="msg">About:</label>
+                      <textarea
+                        name="user_message"
+                        id="msg"
+                        placeholder="Optional"
+                      ></textarea>
+                    </div>
+
+                    <div>
+                      <input id="sb" type="submit" />
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>

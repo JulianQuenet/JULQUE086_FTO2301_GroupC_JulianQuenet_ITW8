@@ -4,12 +4,6 @@
   scroll-behavior: smooth;
 }
 
-form{
-    color: white;
-    padding:10px;
-    border: solid 2px lightgrey;
-    border-radius: 10%;
-}
 
 span{
     color: red;
@@ -51,13 +45,15 @@ a{
      }
 
      .top{
-        position: absolute;
-        left: 90%;
+        position: sticky;
+        text-align: right;
+        top: 550px;
+        opacity: 80%;
+     }
+
+     .top img{
         width: 30px;
         height: 30px;
-        position: sticky;
-        top: 500px;
-        opacity: 80%;
      }
 
 
@@ -84,7 +80,7 @@ a{
     }
     
     .menu h2{
-        font-size: 0px;
+        display: none;
     }
 
     .menu ul li{
@@ -109,29 +105,17 @@ a{
         text-decoration: none;
         text-transform: uppercase;
     }
-    
+
     #skills{
-        margin-left: 40%;
+        margin-top: 50px;
     }
     
-    .list{
-        display: flex;
-        gap: 30px;
-    }
-
-    .listb{
-        display: flex;
-        gap:120px
-        
-    }
-    
-
     #contactDetails{
-        margin-left: 30%;
+        margin-left: 35%;
     }
     
     .Icons{
-        margin-left: 23%;
+        margin-left: 28%;
     }
 
     .Icons a{
@@ -165,11 +149,134 @@ a{
         margin-top:50px;
     }
 
+    .frm{
+        display: none;
+    }
+
+    form{
+        color: white;
+        padding:10px;
+        border: solid 1px lightgrey;
+        border-radius: 10%;
+    }
+
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 550px) {
       header{
-         background: #0f2027;
+         background: #0f2027 url(../Images/banner.png);
       }
       
+
+      .list, .listb{
+        display: flex;
+        flex-direction: column;
+      }
+
+      section#left{
+        text-align: left;
+      }
+
+      .mainContent{
+        display:flex;
+      }
+
+      .leftArea{
+        background: #3C4B49;
+        width: 30%;
+        padding: 10px;
+        color:white;
+      }
+
+      .leftArea h2{
+        font-size: 1.2rem;
+      }
+
+      .leftArea p{
+        font-size: 0.6rem;
+        font-family: sans-serif;
+      }
+
+      .rightArea{
+        width:70%;
+        padding:10px;
+      }
+
+
+      #contactDetails{
+        margin-left:5%;
+      }
+    
+      .Icons{
+        margin-left:5%;
+    }
+
+    .Icons a{
+        margin-right:15px;
+    }
+
+    .experience{
+        margin-top:10px;
+    }
+
+    article{
+        padding: 0;
+    }
+
+    footer{
+        border-radius: 0;
+    }
+
+    #skills{
+        margin-top:10px;
+    }
+
+    .menu{
+        padding: 10px;
+        border-radius: 0;
+    }
+
+    footer{
+        display: none;
+    }
+
+    .frm{
+       display: unset;
+    }
+
+    form{
+        color: white;
+        padding: 10px;
+        border: 0;
+    }
+
+    label{
+        color: white;
+        display: block;
+        width: 150px;
+        text-align: left;
+        margin-left: 10px;
+    }
+    
+    
+    input{
+        width: 159px;
+        margin-left: 10px;
+    }
+
+    select{
+        margin-left: 10px;
+    }
+    
+    textarea{
+        width: 160px;
+        margin-left: 10px;
+    }
+
+    input#sb{
+        width: 162px;
+    }
+    
+    
+
 }
