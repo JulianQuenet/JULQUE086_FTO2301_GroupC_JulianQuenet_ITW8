@@ -47,7 +47,7 @@ a{
      .top{
         position: sticky;
         text-align: right;
-        top: 550px;
+        top: 350px;
         opacity: 80%;
      }
 
@@ -75,7 +75,7 @@ a{
     .text{
         position: absolute;
         top:5%;
-        left:27%;
+        left:29%;
 
     }
     
@@ -92,11 +92,11 @@ a{
 
     .menu ul{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     .menu{
-        padding: 5px;
+        padding: 2px;
         background-color: #0f2027;
         border-radius: 5px;
     }
@@ -156,8 +156,6 @@ a{
     form{
         color: white;
         padding:10px;
-        border: solid 1px lightgrey;
-        border-radius: 10%;
     }
 
 }
@@ -173,9 +171,6 @@ a{
         flex-direction: column;
       }
 
-      section#left{
-        text-align: left;
-      }
 
       .mainContent{
         display:flex;
@@ -223,9 +218,6 @@ a{
         padding: 0;
     }
 
-    footer{
-        border-radius: 0;
-    }
 
     #skills{
         margin-top:10px;
@@ -277,6 +269,217 @@ a{
         width: 162px;
     }
     
+
+    .top{
+        position: sticky;
+        text-align: right;
+        top: 450px;
+        opacity: 80%;
+     }
+
+     .text{
+        position: absolute;
+        top:55px;
+        left:29%;
+
+    }
     
 
+}
+
+@media only screen and (min-width:1300px) {
+
+     h1,h2,h3,p{
+        margin:10px;
+        color: white;
+    }
+
+     h1,h2,h3,h4,p,ul li,a{
+        font-size: 1.7rem;
+    }
+     
+     a{
+        color: rgb(57, 185, 101);
+    }
+     
+    .header img{
+         border-radius: 100%;
+         position:absolute;
+         right: 95px;
+         top: 20px;
+         border: 2px solid white;
+         cursor: pointer;
+    }
+     
+    .resume{
+         margin: 0px;
+         background: rgb(77, 92, 90) url(../Images/2.png);
+         box-shadow: 0 0 50px rgb(0, 0, 0);
+         border-radius: 15px;
+    }
+     
+    header{
+         position:relative;
+         height: 200px;
+         background:transparent;
+    }
+     
+    .header .text{
+        position: absolute;
+        top: 70px;
+        left: 40%;
+    }
+
+    .text h1, .text p{
+        font-size: 1.3rem;
+    }
+     
+      
+     
+    .leftArea{
+         width: 30%;
+         background-color: rgb(60, 75, 73);
+         box-shadow: 0 0 50px rgb(0, 0, 0);
+         border-radius: 10px;
+    }
+     
+    .rightArea{
+         width: 70%;
+         background: transparent;
+    }
+     
+    .education{
+        margin-top: 35px;
+        margin-left: 120px;
+        margin-bottom: 100px;
+     
+    }
+
+    .experience{
+        margin-top: 15px;
+        margin-left: 120px;
+        margin-bottom: 100px;
+     
+    }
+      
+    ul{
+        margin-left: 30px;
+        color: white;
+    }
+     
+    .skills{
+        margin-top: 35px;
+        margin-left: 20px;
+    }
+     
+    #languages, #courses, #contactDetails{
+        margin-top: 59px;
+    }
+     
+     
+    .education h4{
+        margin-left: 10px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+    }
+     
+    .experience h4{
+         color: rgb(0, 168, 0);
+         margin-left: 10px;
+         font-weight: bold;
+    }
+     
+    .Icons{
+         padding-left: 10px;
+         transform: scale(1.1);
+    }
+     
+    .Icons a{
+         padding-right: 20px;
+     
+    }
+     
+    label{
+         color: white;
+         display: block;
+         width: 150px;
+         text-align: left;
+    }
+     
+     
+    input{
+         width: 159px;
+    }
+     
+    form{
+         padding: 10px;
+    }
+     
+    span{
+         color: #ff0818;
+    }
+
+    #contactDetails{
+        margin-left:10px;
+    }
+
+    .leftArea h2{
+        font-size: 2rem;
+    }
+
+    .leftArea p{
+        font-size: 1.5rem;
+    }
+
+    form{
+        font-size: 1.2rem;
+    }
+    
+    input,textarea{
+        width: 250px;
+    }
+
+    select{
+        width: 200px;
+    }
+
+    textarea{
+        height: 80px;
+    }
+
+    input#sb{
+        width: 250px;
+    }
+
+
+    .menu h2{
+        display: unset;
+        margin-left: 30px;
+    }
+    
+
+    .menu{
+        background: transparent;
+        text-align: left;
+    }
+
+    .menu ul{
+        display: unset;
+        justify-content: unset;
+    }
+
+
+    .menu ul li{
+        display: unset;
+        list-style: none;
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        top:30px;
+        margin-left:100px
+    }
+
+    
 }
